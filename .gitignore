@@ -1,0 +1,13 @@
+/.agents/
+/.repo/
+/build/
+/dist/
+/release/
+/test_artifacts/
+/test_drag_target/
+/third_party/*.zip
+/third_party/qpdf-12.3.2/
+*.obj
+*.user
+*.pdb
+*.ilk
