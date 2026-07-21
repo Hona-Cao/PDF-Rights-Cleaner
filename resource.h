@@ -1,0 +1,10 @@
+#pragma once
+
+#define IDR_MANIFEST 1
+#define IDI_APP_ICON 101
+#define IDR_QPDF_EXE 301
+#define IDR_QPDF_DLL 302
+#define IDR_MSVCP_DLL 303
+#define IDR_VCRUNTIME_DLL 304
+#define IDR_VCRUNTIME1_DLL 305
+#define IDR_QPDF_LICENSE 306

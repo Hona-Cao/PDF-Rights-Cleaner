@@ -1,0 +1,43 @@
+#include "resource.h"
+
+IDR_MANIFEST RT_MANIFEST "app.manifest"
+IDI_APP_ICON ICON "assets\\app_icon.ico"
+IDR_QPDF_EXE RCDATA "build\\packed\\qpdf.exe.xpress"
+IDR_QPDF_DLL RCDATA "build\\packed\\qpdf30.dll.xpress"
+IDR_MSVCP_DLL RCDATA "build\\packed\\msvcp140.dll.xpress"
+IDR_VCRUNTIME_DLL RCDATA "build\\packed\\vcruntime140.dll.xpress"
+IDR_VCRUNTIME1_DLL RCDATA "build\\packed\\vcruntime140_1.dll.xpress"
+IDR_QPDF_LICENSE RCDATA "third_party\\qpdf-12.3.2\\qpdf-12.3.2-msvc64\\share\\doc\\qpdf\\manual-html\\license.html"
+
+1 VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "曹虎男"
+            VALUE "FileDescription", "PDF 权限清理器"
+            VALUE "FileVersion", "1.1.0"
+            VALUE "InternalName", "PDFRightsCleaner"
+            VALUE "LegalCopyright", "Copyright © 2026 曹虎男"
+            VALUE "OriginalFilename", "PDF-Rights-Cleaner.exe"
+            VALUE "ProductName", "PDF Rights Cleaner"
+            VALUE "ProductVersion", "1.1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0804, 1200
+    END
+END
